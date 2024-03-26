@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>html code with css</title>
+        <!--style tag 2nd priority-->
+        <style>
+            /*universal slector*/
+            *{
+                margin: 0;
+                padding: 0;
+            }
+            h1{
+                color:#ff0000;
+                background-color: aquamarine;
+
+            }
+            /*group slector*/
+            div,#start{
+                /*rgb color*/
+                background-color: rgb(120, 200, 255);
+                color: aqua;
+            }
+            #div22{
+                color: rgb(234, 0, 8);
+            }
+            p{
+                color: blueviolet;
+            }
+            /*ckass slector*/
+            .heading{
+                color: aquamarine;
+            }
+            .box{ height: 100px; width:150px}
+            #box1{
+                background-image: url(my\ photo.jpg);
+                background-size: contain;
+                background-repeat:no-repeat;
+                background-size: cover;
+                }
+            #box2{background-color:blue}
+            #box3{background-color:rgb(00,255,00)}
+        </style>
+        <!--external styling 3rd priority-->
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <h1>welcome</h1>
+        <hr>
+        <!--inline styling 1st pirority-->
+        <div id="start" style="color: blue;">
+            <h2>hi</h2>
+        </div>
+        <div id="head">
+            <h2>koniciwa</h2>
+        </div>
+        <div>
+            <h2>hellow</h2>
+        </div>
+        <hr>
+        <div id="div22">div</div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, et.</p>
+        <h3 class="heading">
+            heading2
+        </h3>
+        <hr>
+        <div id="box1" class="box">box1</div>
+        <div id="box2" class="box">box2</div>
+        <div id="box3" class="box">box3</div>
+    </body>
+</html>
