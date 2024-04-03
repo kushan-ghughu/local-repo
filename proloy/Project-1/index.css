@@ -1,0 +1,35 @@
+
+.hero-content{
+    width: 70%;
+}
+header{
+    display: flex;
+    background-color: aquamarine;
+    .logo{
+        padding: 0px;
+        margin: 0px;
+    }
+    nav{
+            ul{
+                list-style-type: none; 
+                display: flex; 
+                gap: 30%;
+            }
+    }
+}
+html{
+    scroll-behavior: smooth;
+}
+main{
+    background-color: aqua;
+}
+a{
+    text-decoration: none;
+}
+main{
+    display: flex;
+    
+}
+.hero-image{
+    text-align: right;
+}

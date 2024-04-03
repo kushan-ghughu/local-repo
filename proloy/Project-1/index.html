@@ -7,42 +7,7 @@
     <meta name="keywords" content="HTML, CSS, JavaScript, youth career hub">
     <meta name="author" content="YOUTH CAREER HUB">
     <title>Youth Carrer hub Clone</title>
-    <style>
-        .hero-content{
-            width: 70%;
-        }
-        header{
-            display: flex;
-            background-color: aquamarine;
-            .logo{
-                padding: 0px;
-                margin: 0px;
-            }
-            nav{
-                    ul{
-                        list-style-type: none; 
-                        display: flex; 
-                        gap: 30%;
-                    }
-            }
-        }
-        html{
-            scroll-behavior: smooth;
-        }
-        main{
-            background-color: aqua;
-        }
-        a{
-            text-decoration: none;
-        }
-        main{
-            display: flex;
-            
-        }
-        .hero-image{
-            text-align: right;
-        }
-    </style>
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
     <!--header part-->
@@ -56,8 +21,8 @@
                 <li><a href="http://127.0.0.1:5500/proloy/Project-1/Project-1/index.html">Home</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#skills">Our skill</a></li>
-                <li><a href="#">Servise</a></li>
-                <li><a href="#">Contect us</a></li>
+                <li><a href="#our-servises">Servise</a></li>
+                <li><a href="#our-footer">Contect us</a></li>
             </ul>
         </nav>
         </div>
@@ -126,7 +91,7 @@
             </figure>
             <figure>
                 <img src="images/list.png" alt="List" width="100px">
-                <figcaption><strong>List</strong></figcaption>
+                <figcaption><strong>Notes</strong></figcaption>
             </figure>
             <figure>
                 <img src="images/tag.png" alt="Tag" width="100px">
@@ -134,14 +99,15 @@
             </figure>
             <figure>
                 <img src="images/translator.png" alt="Language" width="100px">
-                <figcaption><strong>Language</strong></figcaption>
+                <figcaption><strong>Bngali teaching</strong></figcaption>
             </figure>
         </div>
 
     </section>
     <!--copyright section -->
-    <footer class="our-footer">
+    <footer class="our-footer" id="our-footer">
             <p>copyright &copy;</p>
+            <h2>Contect us</h2>
     </footer>
 </body>
 </html>
