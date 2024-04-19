@@ -1,0 +1,23 @@
+.box{
+    height: 400px;
+    width: 400px;
+    background-color: chocolate;
+    color: white;
+    margin: 100px auto;
+    position: relative;
+    /* transform: scale(o.5);
+    transform: rotate(45deg); */
+    transform: translateX(100px);
+    transform: translateY(50px);
+}
+.box h3{
+    text-align: center;
+    font-size: 150%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    
+}

@@ -1,0 +1,25 @@
+ /* class selector */
+.html{
+    color: aqua;
+}
+/* id slector */
+#css{
+    color: rgb(34, 221, 81);
+}
+/* element slector */
+li{
+    background-color: bisque;
+}
+/* combinotor slector */
+ul p{
+    color: blue;
+}
+
+/* pseudo slecter */
+h1:hover{
+    color: #00ffc3;
+}
+/* Universal slector */
+*{
+    margin: 0px;
+}
