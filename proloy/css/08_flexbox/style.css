@@ -1,0 +1,42 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    border: 4px solid red;
+    margin: 5px;
+    padding:10px;
+    display: flex;
+    height: 800px;
+    /* width: 70%; */
+    flex-wrap: wrap;
+    /* flex-flow: row-reverse wrap; */
+    /* justify cotent is for main axisis */
+    /* justify-content: center; */
+    /* justify-content: space-between; */
+    /*align items for is cross axisis*/
+    /* align-items: center; */
+    justify-content: center;
+    align-items: center;
+    align-content: space-evenly ;
+}
+.box{
+    width: 150px;
+    height: 150px;
+    padding: 10px;
+    margin: 4px;
+    border: 2px solid blue;
+    background-color: orange;
+    font-size: 24px;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#box1{
+    flex-grow: 6;
+}
+#box2 , #box3, #box5{
+    flex-grow: 1;
+}
