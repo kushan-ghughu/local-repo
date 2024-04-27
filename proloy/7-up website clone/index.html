@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!--header start-->
     <header class="header">
         <nav class="navigation">
             <div class="logo">
@@ -24,12 +25,17 @@
                     <li><a href="#">ENG/ESP</a></li>
                 </ul>              
             </div>
+            <div id="menu-btn" class="ri-menu-line"></div>
         </nav>
+        
     </header>
+    <!--header end-->
     <main>
+        <!--1st div start-->
         <div class="first">
             <div class="first-left">
-                <a href="#items"><img src="images/7up.jpg" alt="glass-image">
+                <a href="#items"><img  src="images/7up.jpg" alt="glass-image" class="desktop">
+                    <img src="images/7up_m.jpg" alt="" class="mobile">
                     <b><h2>REFRESHING 7UP</h2></b>
                     <div class="box">
                         
@@ -40,10 +46,18 @@
                     </a>
                 
             </div>
-            <div class="first-right"><a href=""><div class="play-btn"><img src="images/play-btn.webp" alt="play-btn"></div></a>
+            <div class="first-right">
+                
+                <a href="">
+                    <div class="play-btn">
+                        <img src="images/play-btn.webp" alt="play-btn">
+                    </div>
+                </a>
                 
             </div>
         </div>
+        <!--1st div end-->
+        <!--banner start-->
         <div class="banner">
             <img src="images/7up-simple-banner.webp" alt="7up-banner">
             <div class="content2">
@@ -53,6 +67,8 @@
                 <a href="#items">EXPLORE NOW</a>
             </div>
         </div>
+        <!--banner end-->
+        <!--overlay start-->  
        <div class="overlay">
         <div class="cocktail">
             <div class="cocktail-btn"><a href="#">cocktail recepie</a></div>
@@ -64,9 +80,15 @@
             <div class="all-recepie-btn"><a href="#">See All Recipes</a></div>
         </div>
        </div>
+       <!--overlay end-->
+
+       <!--items start-->
        <div class="items" id="items">
 
        </div>
+       <!--items end-->
+
+       <!--footer start-->
        <footer class="footer">
             <div class="footer-2">
                 <nav class="footer-nav">    
@@ -95,6 +117,7 @@
                 </nav>
             </div>
        </footer>
+       <!--footer end-->
     </main>
 </body>
 </html>
