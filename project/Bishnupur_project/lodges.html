@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lodges in Bishnupur</title>
+    <link rel="stylesheet" href="style3.css">
+</head>
+
+<body>
+    <header>
+        <h1>Lodges in Bishnupur</h1>
+        <img src="images/rasmoncho_4.jpeg" alt="">
+    </header>
+    <main>
+        <section class="content">
+            <div id="Lodges">
+                <h2>Lodges in Bishnupur</h2>
+                <p>Click on the below link</p>
+                <ul>
+                    <li><a href="#Banalata" onclick="showContent('Banalata')">Banalata</a></li>
+                    <li><a href="#Bishnupur-Tourist-Lodge" onclick="showContent('Bishnupur-Tourist-Lodge')">Bishnupur
+                            Tourist Lodge</a></li>
+                    <li><a href="#Hotel-Laxmi-Park" onclick="showContent('Hotel-Laxmi-Park')">Hotel Laxmi Park</a></li>
+                    <li><a href="#Monslisa-Lodge" onclick="showContent('Monslisa-Lodge')">Monslisa Lodge</a></li>
+                    <li><a href="#Udayan-Lodge" onclick="showContent('Udayan-Lodge')">Udayan Lodge</a></li>
+                    <br> <br>
+                    <li><a href="bishnupur.html" style="background-color: rgba(255, 197, 88, 0.874);">Back to Home</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="Lodges-data">
+                <div id="Banalata" class="content-section active">
+                    <h2>Banalata</h2>
+                    <div class="data">
+                        <div class="images">
+                            <img src="images/Banalata1.jpeg" alt="">
+                            <img src="images/Banalata2.jpeg" alt="">
+                            <img src="images/Banalata3.jpeg" alt="">
+                        </div>
+
+                        <p class="about">
+                            <b>Address:</b> Joypur <br>
+                            <b>P.O/P.s :</b> Bishnupur <b>Dist:</b>Bankura <br>
+                            West Bengal, 722138 <br>
+                            <b>Contact No: </b> 9732111706 / 9732111701
+
+                        </p>
+                    </div>
+                </div>
+
+                <div id="Bishnupur-Tourist-Lodge" class="content-section">
+                    <h2>Bishnupur
+                        Tourist Lodge</h2>
+                    <div class="data">
+                        <div class="images">
+                            <img src="images/Bishnupur Tourist Lodge1.jpeg" alt="">
+                            <img src="images/Bishnupur Tourist Lodge2.jpeg" alt="">
+                            <img src="images/Bishnupur Tourist Lodge3.jpeg" alt="">
+                        </div>
+
+                        <p class="about">
+                            <b>Address:</b> Copllege Road <br>
+                            <b>P.O/P.s :</b> Bishnupur <b>Dist:</b>Bankura <br>
+                            West Bengal, 722122 <br>
+                            <b>Contact No: </b> 7407504000
+
+                        </p>
+                    </div>
+                </div>
+
+
+                <div id="Hotel-Laxmi-Park" class="content-section">
+                    <h2>Hotel Laxmi Park</h2>
+                    <div class="data">
+                        <div class="images">
+                            <img src="images/Hotel Laxmi Park1.jpeg" alt="">
+                            <img src="images/Hotel Laxmi Park2.jpeg" alt="">
+                            <img src="images/Hotel Laxmi Park3.jpg" alt="">
+                        </div>
+
+                        <p class="about">
+                            <b>Address:</b> Balia, Para, Kabiraj Para, Bishnupur, West Bengal 722122<br>
+                            West Bengal, 722122 <br>
+                            <b>Contact No: </b>03244 256 353
+
+                        </p>
+                    </div>
+                </div>
+
+                <div id="Monslisa-Lodge" class="content-section">
+                    <h2>Monalisa Lodge</h2>
+                    <div class="data">
+                        <div class="images">
+                            <img src="images/Monalisa Lodge1.jpg" alt="">
+                            <img src="images/Monalisa Lodge2.jpeg" alt="">
+                            
+                        </div>
+
+                        <p class="about">
+                            <b>Address:</b>  College Road, near Bank of India, Bailapara, Bishnupur, West Bengal 722122 <br>
+                            <b>Contact No: </b> 094341 15177
+
+                        </p>
+                    </div>
+                </div>
+
+                <div id="Udayan-Lodge" class="content-section">
+                    <h2>Udayan Lodge</h2>
+                    <div class="data">
+                        <div class="images">
+                            <img src="images/Udayan Lodge1.jpeg" alt="">
+                            <img src="images/Udayan Lodge2.jpeg" alt="">
+                            
+                        </div>
+
+                        <p class="about">
+                            <b>Address:</b>   Bishnupur College Rd, opp. Ramananda College, Professors Colony, Dalmadal Para, Bishnupur, West Bengal 122722 <br>
+                            <b>Contact No: </b> 03244 252 243
+
+                        </p>
+                    </div>
+                </div>
+
+
+
+            </div>
+
+        </section>
+    </main>
+
+    <script>
+        function showContent(sectionId) {
+            // Hide all content sections
+            const sections = document.querySelectorAll('.content-section');
+            sections.forEach(section => section.classList.remove('active'));
+
+            // Show the selected content section
+            const selectedSection = document.getElementById(sectionId);
+            selectedSection.classList.add('active');
+        }
+    </script>
+
+</body>
+
+</html>

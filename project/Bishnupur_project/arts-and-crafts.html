@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bishnupur Arts and Crafts</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+        }
+
+        .container {
+            display: flex;
+            height: 100vh;
+        }
+
+        .nav-art {
+            width: 20%;
+            background-color: #f4f4f4;
+            padding: 15px;
+            box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .nav-art a {
+            display: block;
+            padding: 10px;
+            margin-bottom: 5px;
+            color: #333;
+            text-decoration: none;
+            border-radius: 4px;
+        }
+
+        .nav-art a:hover {
+            background-color: #ddd;
+        }
+
+        .content {
+            width: 80%;
+            padding: 20px;
+            overflow-y: auto;
+        }
+
+        .section {
+            display: none;
+        }
+
+        .active {
+            display: block;
+        }
+    </style>
+    <script>
+        function showSection(sectionId) {
+            var sections = document.querySelectorAll('.section');
+            sections.forEach(function (section) {
+                section.classList.remove('active');
+            });
+            document.getElementById(sectionId).classList.add('active');
+        }
+
+        document.addEventListener("DOMContentLoaded", function () {
+            // Show the first section by default
+            showSection('terracotta');
+        });
+    </script>
+</head>
+
+<body>
+    <div class="head_div">
+        <img src="images/rasmoncho_4.jpeg" alt="">
+    </div>
+    <div class="container">
+        <div class="nav-art">
+            <a href="#" onclick="showSection('terracotta')">Terracotta Art</a>
+            <a href="#" onclick="showSection('baluchari')">Baluchari Sarees</a>
+            <a href="#" onclick="showSection('conch')">Conch Shell Carvings</a>
+            <a href="#" onclick="showSection('dhokra')">Dhokra Craft</a>
+            <br><br>
+            <div class="back-to-home">
+                <a href="bishnupur.html">Back To Home</a>
+
+            </div>
+
+        </div>
+        <div class="content">
+            <div id="terracotta" class="section active">
+                <div style="display: flex; gap: 10px;">
+                    <div>
+                        <h2>Terracotta Art</h2>
+                        <p>Bishnupur, a municipal town in the modern day Bankura district in West Bengal, was a centre
+                            of
+                            music,
+                            art, and architecture for hundreds of years. Among other things, the town is well-known for
+                            its
+                            terracotta temples, extensively embellished with carved and moulded terracotta decorations
+                            made
+                            from
+                            the locally available laterite clay. These temples are associated with the Gaudiya Vaishnava
+                            faith,
+                            dating back to seventeenth century.
+
+                            Apart from its temple architecture, Bishnupur is also well-known for the craftsmanship of
+                            its
+                            terracotta figurines, pottery, jewellery, and other decorative artefacts. In recent years,
+                            artisans
+                            from Panchmura, a Bankura town not too far from Bishnupur, have also been churning out
+                            thousands
+                            of
+                            terracotta panels emulating the bas-reliefs of the terracotta temples of Bishnupur. These
+                            panels
+                            not
+                            only serve as mementos and curios for tourists to carry back home, but have also been
+                            increasingly
+                            used to decorate the facades of newer constructions, both religious and secular (Dasgupta
+                            2000).
+                        </p>
+                    </div>
+                    <div class="images-art">
+                        <img src="images/Tera.jpg" alt="">
+                        <img src="images/teracota2.jpeg" alt="">
+                        <img src="images/Teracota.jpeg" alt="">
+                    </div>
+                </div>
+            </div>
+
+
+            <div id="baluchari" class="section">
+                <div style="display: flex; gap: 10px;">
+                    <div>
+                        <h2>Baluchari Sarees</h2>
+                        <p>Baluchari sarees are a famous textile from Bishnupur, known for their elaborate pallu with
+                            mythological scenes and intricate weaving techniques. <br>
+                            Baluchari Sari (Bengali: বালুচরী শাড়ি) is a type of sari, a garment worn by women in the
+                            Indian states of West Bengal, Tripura and Assam and the country of Bangladesh. This
+                            particular type of sari originated in West Bengal and is known for depictions of
+                            mythological scenes on the anchal of the sari. It used to be produced in Murshidabad but
+                            presently Bishnupur and its surrounding areas of West Bengal are the only place where
+                            authentic Baluchari saris are produced. It takes approximately one week to produce one such
+                            sari.[1][2] In 2011, the Baluchari Sari was granted the status of Geographical Indication
+                            for West Bengal in India.[3]
+                        </p>
+                    </div>
+                    <div class="images-art">
+                        <img src="images/Baluchari Sarees1.jpeg" alt="">
+                        <img src="images/Baluchari Sarees2.jpeg" alt="">
+                    </div>
+                </div>
+            </div>
+
+
+            <div id="conch" class="section">
+                <div style="display: flex; gap: 10px;">
+                    <div>
+                        <h2>Conch Shell Carvings</h2>
+                        <p>Conch shell carving is a traditional craft in Bishnupur, West Bengal, India that's known for
+                            its intricate patterns and elegant visual art forms. The craft is practiced by the
+                            Shankhakar community, who are traditional artists that often belong to the "Sankha Banik"
+                            caste. Carving skills are passed down through generations, and many craftsmen have been
+                            recognized for their creative excellence. <br>
+                            <h3>The process of carving conch shells involves several steps:</h3>
+                            <b>Cleaning:</b> The shells are washed to remove dirt and debris, then ground to remove impurities. <br> <br>
+                           <b>Soaking:</b> The shells are soaked in hydrochloric acid to make them whiter and fairer. <br> <br>
+                            <b>Carving:</b> The shells are carved using simple tools like chisels, files, hammers, and 
+                            grinders. Chisels come in different sizes depending on the pattern's details. <br> <br>
+                            <b>Polishing:</b> The shells are filed and polished to give them a lustrous finish. <br><br>
+
+                            Conch shells are important in the Hindu faith and are considered lucky in Hindu mythology. They are used in puja and are associated with the sea, which is thought to enhance travel luck and strengthen long-distance relationships. Conch shells are also used to make a variety of products, including ornaments, trumpets, home goods, and sculptures. 
+
+
+                        </p>
+                    </div>
+                    <div class="images-art">
+                        <img src="images/Conch Shell Carvings1.jpg" alt="">
+                        <img src="images/Conch Shell Carvings2.jpeg" alt="">
+                    </div>
+                </div>
+            </div>
+
+
+            <div id="dhokra" class="section">
+                <div style="display: flex; gap: 10px;">
+                    <div>
+                        <h2>Dhokra Craft</h2>
+                        <p>The Dhokra or Dokra is a beautiful form of tribal art that showcases the immense talent of tribal craftsmen. Various types of ornaments and brilliant home decor items, idols of gods and goddess can be made of Dokra. The system of metal casting is being used in Dokra art is considered to be the oldest form of metal casting and it is known as ‘cire perdue’ technically. Bikna village of Bankura district is the home to this majestic art.
+                        </p>
+                    </div>
+                    <div class="images-art">
+                        <img src="images/Dhokra Craft1.jpeg" alt="">
+                        <img src="images/Dhokra Craft2.jpeg" alt="">
+                        <img src="images/Dhokra Craft3.webp" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
